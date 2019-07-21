@@ -44,7 +44,7 @@ def get_image():
     img = base64.b64encode(img).decode('ascii')
     options = get_options(folder)
     resp = {'folder': folder,
-            'file': file,
+            'file': os.path.basename(file),
             'options': options,
             'image': img}
 
