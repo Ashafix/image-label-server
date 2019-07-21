@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import ReactDOM from 'react-dom';
 
 const SERVER_URL = 'http://localhost:5000';
 
